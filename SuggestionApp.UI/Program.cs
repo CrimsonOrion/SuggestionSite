@@ -1,10 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
+using SuggestionApp.UI;
 
-// Add services to the container.
-builder.Services.AddRazorPages();
-builder.Services.AddServerSideBlazor();
-
-var app = builder.Build();
+var app = WebApplication
+   .CreateBuilder(args)
+   .ConfigureServices()
+   .Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

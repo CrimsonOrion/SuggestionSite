@@ -21,4 +21,6 @@
     <ProjectReference Include="..\SuggestionApp.Core\SuggestionApp.Core.csproj" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1development_1json__JsonSchema="appsettings.json" /></VisualStudio></ProjectExtensions>
+
 </Project>
